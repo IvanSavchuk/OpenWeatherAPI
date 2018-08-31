@@ -2,9 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width"/>
         <title>Weather API</title>
+        <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
         <script src="weatherAPI.js"></script>
     </head>
     <body>
+        <input type="text" id="cityName">
+        <button onclick="getWeather()">Enter a city to get weather</button>
+        <div class="weatherResponse">
+
+        </div>
     </body>
+    <!-- https://www.youtube.com/watch?v=S-gMLzlG_ME -->
 </html>
