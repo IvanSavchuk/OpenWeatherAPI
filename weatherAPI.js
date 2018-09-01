@@ -1,7 +1,8 @@
 
 function getWeather() {
-    var cityName = $('#cityName').val();
+    $('.weatherResponse').html('');
 
+    var cityName = $('#cityName').val();
     var apiCall = 
     'http://api.openweathermap.org/data/2.5/weather?q=' + 
     cityName 
